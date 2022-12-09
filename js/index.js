@@ -2,7 +2,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 const backgroundImage = new Image();
-backgroundImage.src = '../images/forest.jpeg'; 
+backgroundImage.src = 'images/forest.jpeg'; 
 
 canvas.width = 768;
 canvas.height = 590;
@@ -33,7 +33,7 @@ class Vamp {
 
     });
 
-    newImage.src = '../images/vamp.png'
+    newImage.src = 'images/vamp.png'
 
   }
 
