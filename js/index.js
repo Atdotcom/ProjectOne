@@ -2,7 +2,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 const backgroundImage = new Image();
-backgroundImage.src = './images/forest.jpeg'; 
+backgroundImage.src = '.images/forest.jpeg'; 
 
 canvas.width = 768;
 canvas.height = 590;
@@ -33,7 +33,7 @@ class Vamp {
 
     });
 
-    newImage.src = '/images/vamp.png'
+    newImage.src = 'images/vamp.png'
 
   }
 
@@ -82,7 +82,7 @@ class Enemy {
     this.frame = 0;
 
     const enemyImage = new Image();
-      enemyImage.src = "/images/stake.png";
+      enemyImage.src = "images/stake.png";
       enemyImage.addEventListener('load', ()=>{
       this.img = enemyImage;
     })
@@ -243,10 +243,3 @@ ctx.fillStyle = "200px serif";
 ctx.fillText(`Game Over your score is ${points}`, 230, canvas.height / 2);
   }
 }
-
-
-
-
-
-
-
