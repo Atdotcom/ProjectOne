@@ -125,7 +125,6 @@ function updateEnemies() {
   frames += 1;
   if (frames % 40 === 0) {
     enemiesArray.push(new Enemy());
-    console.log(enemiesArray);
   }
 }
 
