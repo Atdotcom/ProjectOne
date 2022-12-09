@@ -28,13 +28,11 @@ class Vamp {
     this.height = 70;
 
     const newImage = new Image();
+    newImage.src = 'images/vamp.png'
     newImage.addEventListener('load', () => {
       this.img = newImage;
 
     });
-
-    newImage.src = 'images/vamp.png'
-
   }
 
   draw() {
