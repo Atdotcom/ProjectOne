@@ -28,7 +28,7 @@ class Vamp {
     this.height = 70;
 
     const newImage = new Image();
-    newImage.src = 'images/vamp.png'
+    newImage.src = 'images/vampire2.png'
     newImage.addEventListener('load', () => {
       this.img = newImage;
 
